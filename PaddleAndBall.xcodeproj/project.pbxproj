@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3262E8811CC6C76200A10A83 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3262E8801CC6C76200A10A83 /* .gitignore */; };
+		32A2FF861C95C26A00E239B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A2FF851C95C26A00E239B6 /* main.m */; };
+		32A2FF891C95C26A00E239B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A2FF881C95C26A00E239B6 /* AppDelegate.m */; };
+		32A2FF8C1C95C26A00E239B6 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A2FF8B1C95C26A00E239B6 /* GameViewController.m */; };
+		32A2FF8F1C95C26A00E239B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A2FF8D1C95C26A00E239B6 /* Main.storyboard */; };
+		32A2FF911C95C26A00E239B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A2FF901C95C26A00E239B6 /* Assets.xcassets */; };
+		32A2FF941C95C26A00E239B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A2FF921C95C26A00E239B6 /* LaunchScreen.storyboard */; };
+		32A2FF9F1C95C26A00E239B6 /* PaddleAndBallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A2FF9E1C95C26A00E239B6 /* PaddleAndBallTests.m */; };
+		32A2FFAA1C95C26A00E239B6 /* PaddleAndBallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A2FFA91C95C26A00E239B6 /* PaddleAndBallTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32A2FF9B1C95C26A00E239B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A2FF791C95C26A00E239B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32A2FF801C95C26A00E239B6;
+			remoteInfo = PaddleAndBall;
+		};
+		32A2FFA61C95C26A00E239B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A2FF791C95C26A00E239B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32A2FF801C95C26A00E239B6;
+			remoteInfo = PaddleAndBall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3262E8801CC6C76200A10A83 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		32A2FF811C95C26A00E239B6 /* PaddleAndBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaddleAndBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A2FF851C95C26A00E239B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32A2FF871C95C26A00E239B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32A2FF881C95C26A00E239B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32A2FF8A1C95C26A00E239B6 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		32A2FF8B1C95C26A00E239B6 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		32A2FF8E1C95C26A00E239B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32A2FF901C95C26A00E239B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32A2FF931C95C26A00E239B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32A2FF951C95C26A00E239B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32A2FF9A1C95C26A00E239B6 /* PaddleAndBall.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaddleAndBall.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A2FF9E1C95C26A00E239B6 /* PaddleAndBallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaddleAndBallTests.m; sourceTree = "<group>"; };
+		32A2FFA01C95C26A00E239B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32A2FFA51C95C26A00E239B6 /* PaddleAndBall.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaddleAndBall.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A2FFA91C95C26A00E239B6 /* PaddleAndBallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PaddleAndBallTests.m; path = ../PaddleAndBallTests/PaddleAndBallTests.m; sourceTree = "<group>"; };
+		32A2FFAB1C95C26A00E239B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32A2FF7E1C95C26A00E239B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A2FF971C95C26A00E239B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A2FFA21C95C26A00E239B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32A2FF781C95C26A00E239B6 = {
+			isa = PBXGroup;
+			children = (
+				3262E8801CC6C76200A10A83 /* .gitignore */,
+				32A2FF831C95C26A00E239B6 /* PaddleAndBall */,
+				32A2FF9D1C95C26A00E239B6 /* PaddleAndBallTests */,
+				32A2FFA81C95C26A00E239B6 /* PaddleAndBallUITests */,
+				32A2FF821C95C26A00E239B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32A2FF821C95C26A00E239B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32A2FF811C95C26A00E239B6 /* PaddleAndBall.app */,
+				32A2FF9A1C95C26A00E239B6 /* PaddleAndBall.xctest */,
+				32A2FFA51C95C26A00E239B6 /* PaddleAndBall.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32A2FF831C95C26A00E239B6 /* PaddleAndBall */ = {
+			isa = PBXGroup;
+			children = (
+				32A2FF871C95C26A00E239B6 /* AppDelegate.h */,
+				32A2FF881C95C26A00E239B6 /* AppDelegate.m */,
+				32A2FF8A1C95C26A00E239B6 /* GameViewController.h */,
+				32A2FF8B1C95C26A00E239B6 /* GameViewController.m */,
+				32A2FF8D1C95C26A00E239B6 /* Main.storyboard */,
+				32A2FF901C95C26A00E239B6 /* Assets.xcassets */,
+				32A2FF921C95C26A00E239B6 /* LaunchScreen.storyboard */,
+				32A2FF951C95C26A00E239B6 /* Info.plist */,
+				32A2FF841C95C26A00E239B6 /* Supporting Files */,
+			);
+			path = PaddleAndBall;
+			sourceTree = "<group>";
+		};
+		32A2FF841C95C26A00E239B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32A2FF851C95C26A00E239B6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32A2FF9D1C95C26A00E239B6 /* PaddleAndBallTests */ = {
+			isa = PBXGroup;
+			children = (
+				32A2FF9E1C95C26A00E239B6 /* PaddleAndBallTests.m */,
+				32A2FFA01C95C26A00E239B6 /* Info.plist */,
+			);
+			path = PaddleAndBallTests;
+			sourceTree = "<group>";
+		};
+		32A2FFA81C95C26A00E239B6 /* PaddleAndBallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32A2FFA91C95C26A00E239B6 /* PaddleAndBallTests.m */,
+				32A2FFAB1C95C26A00E239B6 /* Info.plist */,
+			);
+			path = PaddleAndBallUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32A2FF801C95C26A00E239B6 /* PaddleAndBall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A2FFAE1C95C26A00E239B6 /* Build configuration list for PBXNativeTarget "PaddleAndBall" */;
+			buildPhases = (
+				32A2FF7D1C95C26A00E239B6 /* Sources */,
+				32A2FF7E1C95C26A00E239B6 /* Frameworks */,
+				32A2FF7F1C95C26A00E239B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaddleAndBall;
+			productName = PaddleAndBall;
+			productReference = 32A2FF811C95C26A00E239B6 /* PaddleAndBall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32A2FF991C95C26A00E239B6 /* PaddleAndBallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A2FFB11C95C26A00E239B6 /* Build configuration list for PBXNativeTarget "PaddleAndBallTests" */;
+			buildPhases = (
+				32A2FF961C95C26A00E239B6 /* Sources */,
+				32A2FF971C95C26A00E239B6 /* Frameworks */,
+				32A2FF981C95C26A00E239B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32A2FF9C1C95C26A00E239B6 /* PBXTargetDependency */,
+			);
+			name = PaddleAndBallTests;
+			productName = PaddleAndBallTests;
+			productReference = 32A2FF9A1C95C26A00E239B6 /* PaddleAndBall.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32A2FFA41C95C26A00E239B6 /* PaddleAndBallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A2FFB41C95C26A00E239B6 /* Build configuration list for PBXNativeTarget "PaddleAndBallUITests" */;
+			buildPhases = (
+				32A2FFA11C95C26A00E239B6 /* Sources */,
+				32A2FFA21C95C26A00E239B6 /* Frameworks */,
+				32A2FFA31C95C26A00E239B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32A2FFA71C95C26A00E239B6 /* PBXTargetDependency */,
+			);
+			name = PaddleAndBallUITests;
+			productName = PaddleAndBallUITests;
+			productReference = 32A2FFA51C95C26A00E239B6 /* PaddleAndBall.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32A2FF791C95C26A00E239B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Tamar Kandathi";
+				TargetAttributes = {
+					32A2FF801C95C26A00E239B6 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = SK5Z8Y249H;
+					};
+					32A2FF991C95C26A00E239B6 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 32A2FF801C95C26A00E239B6;
+					};
+					32A2FFA41C95C26A00E239B6 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 32A2FF801C95C26A00E239B6;
+					};
+				};
+			};
+			buildConfigurationList = 32A2FF7C1C95C26A00E239B6 /* Build configuration list for PBXProject "PaddleAndBall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32A2FF781C95C26A00E239B6;
+			productRefGroup = 32A2FF821C95C26A00E239B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32A2FF801C95C26A00E239B6 /* PaddleAndBall */,
+				32A2FF991C95C26A00E239B6 /* PaddleAndBallTests */,
+				32A2FFA41C95C26A00E239B6 /* PaddleAndBallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32A2FF7F1C95C26A00E239B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3262E8811CC6C76200A10A83 /* .gitignore in Resources */,
+				32A2FF941C95C26A00E239B6 /* LaunchScreen.storyboard in Resources */,
+				32A2FF911C95C26A00E239B6 /* Assets.xcassets in Resources */,
+				32A2FF8F1C95C26A00E239B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A2FF981C95C26A00E239B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A2FFA31C95C26A00E239B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32A2FF7D1C95C26A00E239B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A2FF8C1C95C26A00E239B6 /* GameViewController.m in Sources */,
+				32A2FF891C95C26A00E239B6 /* AppDelegate.m in Sources */,
+				32A2FF861C95C26A00E239B6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A2FF961C95C26A00E239B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A2FF9F1C95C26A00E239B6 /* PaddleAndBallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A2FFA11C95C26A00E239B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A2FFAA1C95C26A00E239B6 /* PaddleAndBallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32A2FF9C1C95C26A00E239B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32A2FF801C95C26A00E239B6 /* PaddleAndBall */;
+			targetProxy = 32A2FF9B1C95C26A00E239B6 /* PBXContainerItemProxy */;
+		};
+		32A2FFA71C95C26A00E239B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32A2FF801C95C26A00E239B6 /* PaddleAndBall */;
+			targetProxy = 32A2FFA61C95C26A00E239B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32A2FF8D1C95C26A00E239B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32A2FF8E1C95C26A00E239B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32A2FF921C95C26A00E239B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32A2FF931C95C26A00E239B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32A2FFAC1C95C26A00E239B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32A2FFAD1C95C26A00E239B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32A2FFAF1C95C26A00E239B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PaddleAndBall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamarkandathi.TestName;
+				PRODUCT_NAME = PaddleAndBall;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		32A2FFB01C95C26A00E239B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PaddleAndBall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamarkandathi.TestName;
+				PRODUCT_NAME = PaddleAndBall;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		32A2FFB21C95C26A00E239B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PaddleAndBallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamarkandathi.PaddleAndBallTests;
+				PRODUCT_NAME = PaddleAndBall;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaddleAndBall.app/PaddleAndBall";
+			};
+			name = Debug;
+		};
+		32A2FFB31C95C26A00E239B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PaddleAndBallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamarkandathi.PaddleAndBallTests;
+				PRODUCT_NAME = PaddleAndBall;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaddleAndBall.app/PaddleAndBall";
+			};
+			name = Release;
+		};
+		32A2FFB51C95C26A00E239B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PaddleAndBallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamarkandathi.PaddleAndBallUITests;
+				PRODUCT_NAME = PaddleAndBall;
+				TEST_TARGET_NAME = PaddleAndBall;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		32A2FFB61C95C26A00E239B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PaddleAndBallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamarkandathi.PaddleAndBallUITests;
+				PRODUCT_NAME = PaddleAndBall;
+				TEST_TARGET_NAME = PaddleAndBall;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32A2FF7C1C95C26A00E239B6 /* Build configuration list for PBXProject "PaddleAndBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A2FFAC1C95C26A00E239B6 /* Debug */,
+				32A2FFAD1C95C26A00E239B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32A2FFAE1C95C26A00E239B6 /* Build configuration list for PBXNativeTarget "PaddleAndBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A2FFAF1C95C26A00E239B6 /* Debug */,
+				32A2FFB01C95C26A00E239B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32A2FFB11C95C26A00E239B6 /* Build configuration list for PBXNativeTarget "PaddleAndBallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A2FFB21C95C26A00E239B6 /* Debug */,
+				32A2FFB31C95C26A00E239B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32A2FFB41C95C26A00E239B6 /* Build configuration list for PBXNativeTarget "PaddleAndBallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A2FFB51C95C26A00E239B6 /* Debug */,
+				32A2FFB61C95C26A00E239B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32A2FF791C95C26A00E239B6 /* Project object */;
+}
